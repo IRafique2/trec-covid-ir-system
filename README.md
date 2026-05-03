@@ -148,27 +148,6 @@ Multiple fusion approaches are evaluated:
 
 ---
 
-##  Project Structure
-
-```
-
-│
-├── data/                 # TREC-COVID dataset
-├──                  # Source code
-│   ├── index.py
-│   ├── build_graph.py
-│   ├── retrieve_bm25.py
-│   ├── retrieve_lm.py
-│   ├── fuse_scores.py
-│   └── evaluate.py
-│
-├── outputs/              # Run files and results
-├── evaluation/           # Metric outputs
-├── README.md
-
-```
-
----
 
 ##  How to Run
 
