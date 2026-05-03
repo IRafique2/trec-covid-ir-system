@@ -134,6 +134,64 @@ Multiple fusion approaches are evaluated:
 * Graph-based signals provide limited benefit in this dataset compared to lexical and probabilistic methods.
 
 ---
+Here is a clean, professional **GitHub README section** for the dataset, formatted properly and ready to paste:
+
+---
+
+##  Dataset
+
+The dataset used in this project is the **TREC-COVID benchmark**, part of the BeIR (Benchmarking Information Retrieval) collection.
+
+It contains scientific publications related to COVID-19 along with natural language queries and relevance judgments for evaluation.
+
+###  Source
+
+The dataset can be downloaded directly from Hugging Face:
+
+ [https://huggingface.co/datasets/BeIR/trec-covid](https://huggingface.co/datasets/BeIR/trec-covid)
+
+---
+
+###  Dataset Components
+
+The dataset consists of three main files:
+
+* **Corpus (`corpus.jsonl`)**
+
+  * ~171,000 biomedical research articles
+  * Each document includes:
+
+    * `doc_id`
+    * `title`
+    * `text` (abstract/body)
+    * `metadata` (e.g., PubMed ID, URL)
+
+* **Queries (`queries.jsonl`)**
+
+  * 50 natural language information needs
+  * Each query includes:
+
+    * `query_id`
+    * `text`
+
+* **Relevance Judgments (`qrels/test.tsv`)**
+
+  * Ground-truth labels for evaluation
+  * Format:
+
+    ```
+    query_id    doc_id    relevance_score
+    ```
+  * Relevance levels:
+
+    * `0` = Not relevant
+    * `1` = Partially relevant
+    * `2` = Highly relevant
+
+---
+
+
+
 
 ##  Tech Stack
 
