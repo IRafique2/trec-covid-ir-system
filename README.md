@@ -43,13 +43,6 @@ The pipeline consists of five major components:
    * TREC evaluation metrics via `pytrec_eval`
    * MAP, nDCG@10/20, Precision@10/20
 
----
-
-##  Dataset
-
-* **Corpus:** TREC-COVID scientific document collection (~171,000 papers)
-* **Queries:** 50 biomedical search queries
-* **Relevance judgments:** Graded (0 = not relevant, 1 = partially relevant, 2 = highly relevant)
 
 ---
 
