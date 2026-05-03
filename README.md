@@ -134,9 +134,6 @@ Multiple fusion approaches are evaluated:
 * Graph-based signals provide limited benefit in this dataset compared to lexical and probabilistic methods.
 
 ---
-Here is a clean, professional **GitHub README section** for the dataset, formatted properly and ready to paste:
-
----
 
 ##  Dataset
 
